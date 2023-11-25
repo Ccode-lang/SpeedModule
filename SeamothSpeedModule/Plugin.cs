@@ -1,10 +1,10 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
-using SeamothSpeedModule.Items.Modules;
+using SpeedModule.Items.Modules;
 using System.Reflection;
 
-namespace SeamothSpeedModule
+namespace SpeedModule
 {
     [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
     [BepInDependency("com.snmodding.nautilus")]
@@ -30,6 +30,8 @@ namespace SeamothSpeedModule
         private void InitializePrefabs()
         {
             SeamothSpeedModulePrefab.Register();
+            PrawnSpeedModulePrefab.Register();
+            CyclopsSpeedModulePrefab.Register();
         }
     }
 }

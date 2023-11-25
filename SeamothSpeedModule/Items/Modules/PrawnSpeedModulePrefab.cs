@@ -5,12 +5,12 @@ using System.Collections.Generic;
 
 namespace SpeedModule.Items.Modules
 {
-    public static class SeamothSpeedModulePrefab
+    public static class PrawnSpeedModulePrefab
     {
         public static void Register()
         {
             // Set item info and icon.
-            var prefabInfo = PrefabInfo.WithTechType("SeamothSpeedModule", "Seamoth Speed Module", "Go two times faster with your Seamoth.")
+            var prefabInfo = PrefabInfo.WithTechType("PrawnSpeedModule", "Prawn suit Speed Module", "Go two times faster with your Prawn suit.")
                 .WithIcon(SpriteManager.Get(TechType.VehicleHullModule3));
             CustomPrefab prefab = new CustomPrefab(prefabInfo);
 
@@ -30,9 +30,9 @@ namespace SpeedModule.Items.Modules
             .WithFabricatorType(CraftTree.Type.SeamothUpgrades);
 
             // Module settings
-            prefab.SetVehicleUpgradeModule(EquipmentType.SeamothModule, QuickSlotType.Passive)
+            prefab.SetVehicleUpgradeModule(EquipmentType.ExosuitModule, QuickSlotType.Passive)
                 // Reset depth upgrade
-                .WithDepthUpgrade(200f, true)
+                .WithDepthUpgrade(900f, true)
                 .WithOnModuleAdded(SpeedModule.Utils.DoubleSpeed)
                 .WithOnModuleRemoved(SpeedModule.Utils.ResetSpeed);
             // Register prefab
