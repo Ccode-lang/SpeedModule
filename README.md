@@ -1,6 +1,9 @@
 # Speed Module
 A Subnautica mod that adds a speed module to the game for vehicles. WIP
 
+# Download
+https://www.nexusmods.com/subnautica/mods/1426
+
 # TODO
 - [x] Seamoth module.
 - [ ] Prawn module.
