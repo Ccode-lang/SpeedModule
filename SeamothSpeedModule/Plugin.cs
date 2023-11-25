@@ -31,7 +31,6 @@ namespace SpeedModule
         {
             SeamothSpeedModulePrefab.Register();
             PrawnSpeedModulePrefab.Register();
-            CyclopsSpeedModulePrefab.Register();
         }
     }
 }
