@@ -33,7 +33,7 @@ namespace SpeedModule.Items.Modules
             prefab.SetVehicleUpgradeModule(EquipmentType.SeamothModule, QuickSlotType.Passive)
                 // Reset depth upgrade
                 .WithDepthUpgrade(200f, true)
-                .WithOnModuleAdded(SpeedModule.Utils.DoubleSpeed)
+                .WithOnModuleAdded(SpeedModule.Utils.SeamothSpeed)
                 .WithOnModuleRemoved(SpeedModule.Utils.ResetSpeed);
             // Register prefab
             prefab.Register();

@@ -15,9 +15,20 @@ namespace SpeedModule
             vehicleInstance.sidewardForce *= amount;
             vehicleInstance.verticalForce *= amount;
         }
-        public static void DoubleSpeed(Vehicle vehicleInstance, int slotId)
+        public static void ResetVertical(Vehicle vehicleInstance)
+        {
+            vehicleInstance.verticalForce = 11f;
+        }
+
+        public static void SeamothSpeed(Vehicle vehicleInstance, int slotId)
         {
             MultiplySpeed(vehicleInstance, 2f);
+        }
+        
+        public static void PrawnSpeed(Vehicle vehicleInstance, int slotId)
+        {
+            MultiplySpeed(vehicleInstance, 1.3f);
+            ResetVertical(vehicleInstance);
         }
 
         public static void ResetSpeed(Vehicle vehicleInstance, int slotId)
