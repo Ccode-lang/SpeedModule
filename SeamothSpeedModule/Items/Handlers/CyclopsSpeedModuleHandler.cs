@@ -11,8 +11,16 @@ namespace SpeedModule.Items.Handlers
     {
         public CyclopsSpeedModuleHandler(TechType speedModule, SubRoot cyclops) : base(speedModule, cyclops)
         {
-            this.OnClearUpgrades = () => { };
-            this.OnUpgradeCounted = () => { };
+            this.OnClearUpgrades = () =>
+            {
+                SubControl control = cyclops.GetComponent<SubControl>();
+                control.accelScale = 1f;
+            };
+            this.OnUpgradeCounted = () =>
+            {
+                SubControl control = cyclops.GetComponent<SubControl>();
+                control.accelScale = 2f;
+            };
         }
     }
 }

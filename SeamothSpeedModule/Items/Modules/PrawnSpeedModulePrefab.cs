@@ -10,7 +10,7 @@ namespace SpeedModule.Items.Modules
         public static void Register()
         {
             // Set item info and icon.
-            var prefabInfo = PrefabInfo.WithTechType("PrawnSpeedModule", "Prawn suit Speed Module", "Go two times faster with your Prawn suit.")
+            var prefabInfo = PrefabInfo.WithTechType("PrawnSpeedModule", "Prawn suit Speed Module", "Go 1.3 times faster with your Prawn suit.")
                 .WithIcon(SpriteManager.Get(TechType.VehicleHullModule3));
             CustomPrefab prefab = new CustomPrefab(prefabInfo);
 
