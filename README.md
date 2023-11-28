@@ -7,7 +7,7 @@ https://www.nexusmods.com/subnautica/mods/1426
 # TODO
 - [x] Seamoth module.
 - [x] Prawn module.
-- [ ] Cyclops module.
+- [x] Cyclops module.
 
 # Compatability
 This mod should be compatible with most mods unless they edit the speed of vehicles.  It is only tested on Subnautica 2.0.
@@ -15,6 +15,7 @@ This mod should be compatible with most mods unless they edit the speed of vehic
 # Dependancies
  * BipInEx for Subnautica (https://www.nexusmods.com/subnautica/mods/1108)
  * Nautilus (https://www.nexusmods.com/subnautica/mods/1262)
+ * MoreCyclopsUpgrades (https://www.nexusmods.com/subnautica/mods/1407)
 
 # Credits
  * Beginners Guide to Modding Subnautica (https://mroshaw.github.io/Subnautica/)
