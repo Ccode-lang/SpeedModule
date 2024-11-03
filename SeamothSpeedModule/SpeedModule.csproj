@@ -30,7 +30,7 @@
 
   <ItemGroup>
     <Reference Include="MoreCyclopsUpgrades">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Subnautica\BepInEx\plugins\MoreCyclopsUpgrades\MoreCyclopsUpgrades.dll</HintPath>
+      <HintPath>..\..\..\..\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Subnautica\profiles\Default\BepInEx\plugins\MoreCyclopsUpgrades\MoreCyclopsUpgrades.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

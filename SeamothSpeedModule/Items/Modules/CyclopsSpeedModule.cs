@@ -30,7 +30,8 @@ namespace SpeedModule.Items.Modules
                 craftAmount = 1,
                 Ingredients =
                 {
-                    new CraftData.Ingredient(TechType.Titanium, 6),
+                    new CraftData.Ingredient(TechType.PlasteelIngot, 2),
+                    new CraftData.Ingredient(TechType.PowerCell, 1)
                 }
             };
         }

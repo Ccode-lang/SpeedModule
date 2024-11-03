@@ -24,7 +24,8 @@ namespace SpeedModule.Items.Modules
                 craftAmount = 1,
                 Ingredients = new List<CraftData.Ingredient>()
                 {
-                    new CraftData.Ingredient(TechType.Titanium, 6),
+                    new CraftData.Ingredient(TechType.PlasteelIngot, 1),
+                    new CraftData.Ingredient(TechType.Lithium, 2)
                 }
             })
             .WithFabricatorType(CraftTree.Type.SeamothUpgrades);
